@@ -14,19 +14,23 @@ Suitable for running after install of Ubuntu or for running at a later time at y
 - Run the command: sudo apt install curl
 - Run the below commands
 
-# Two Commands
+# Two Shell Script Files
 
 __1_ubuntu_customize.sh__
+
+[RAW](https://raw.githubusercontent.com/hl2guide/Ubuntu-Customize-and-Update/master/1_ubuntu_customize.sh)
 
 Customizes Ubuntu by removing unwanted software packages, junk and old packages that Ubuntu installs by default.
 (prompts for password during execution, confirm with 'Y' key)
 
 _(Removes junk including games, Thunderbird and LibreOffice. LibreOffice icons will remain until device restarts.)_
 
-	sudo bash <(curl -s https://raw.githubusercontent.com/hl2guide/Ubuntu-Customize-and-Update/master/1_ubuntu_customize.sh)
-
 __2_ubuntu_update_upgrade_and_clean.sh__
+
+[RAW](https://raw.githubusercontent.com/hl2guide/Ubuntu-Customize-and-Update/master/2_ubuntu_update_upgrade_and_clean.sh)
 
 Updates, upgrades and cleans Ubuntu. (prompts for password then for restart at the end)
 
-	sudo bash <(curl -s https://raw.githubusercontent.com/hl2guide/Ubuntu-Customize-and-Update/master/2_ubuntu_update_upgrade_and_clean.sh)
+# How to Run
+
+[Reference](https://help.ubuntu.com/lts/serverguide/backup-shellscripts.html#backup-executing-shellscript)

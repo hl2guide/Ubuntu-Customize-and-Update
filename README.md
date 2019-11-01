@@ -23,10 +23,10 @@ Customizes Ubuntu by removing unwanted software packages, junk and old packages 
 
 _(Removes junk including games, Thunderbird and LibreOffice. LibreOffice icons will remain until device restarts.)_
 
-	curl -s https://raw.githubusercontent.com/hl2guide/Ubuntu-Customize-and-Update/master/1_ubuntu_customize.sh | bash
+	sudo bash <(curl -s https://raw.githubusercontent.com/hl2guide/Ubuntu-Customize-and-Update/master/1_ubuntu_customize.sh)
 
 __2_ubuntu_update_upgrade_and_clean.sh__
 
 Updates, upgrades and cleans Ubuntu. (prompts for password then for restart at the end)
 
-	curl -s https://raw.githubusercontent.com/hl2guide/Ubuntu-Customize-and-Update/master/2_ubuntu_update_upgrade_and_clean.sh | bash
+	sudo bash <(curl -s https://raw.githubusercontent.com/hl2guide/Ubuntu-Customize-and-Update/master/2_ubuntu_update_upgrade_and_clean.sh)

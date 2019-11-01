@@ -11,6 +11,7 @@ Suitable for running after install of Ubuntu or for running at a later time at y
 # Usage
 
 - Launch the terminal in Ubuntu by pressing: Ctrl+Alt+T
+- Run the command: sudo apt install curl
 - Run the below commands
 
 # Two Commands

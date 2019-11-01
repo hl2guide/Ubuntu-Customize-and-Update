@@ -21,3 +21,4 @@ sudo apt upgrade -y
 # Finished message, prompts for restart
 echo $'\n'$"*** Updated, upgraded and cleaned Ubuntu. ***"
 echo $'\n'$"*** Please restart the device now. ***"
+

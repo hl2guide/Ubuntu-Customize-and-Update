@@ -38,3 +38,4 @@ sudo apt install chromium-browser
 
 # Finished message
 echo $'\n'$"*** Ubuntu has been customized. ***"
+

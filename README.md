@@ -20,7 +20,7 @@ __1_ubuntu_customize.sh__
 Customizes Ubuntu by removing unwanted software packages, junk and old packages that Ubuntu installs by default.
 (prompts for password during execution, confirm with 'Y' key)
 
-_(Removes junk including games, Thunderbird and LibreOffice)_
+_(Removes junk including games, Thunderbird and LibreOffice. LibreOffice icons will remain until device restarts.)_
 
 	curl -s https://raw.githubusercontent.com/hl2guide/Ubuntu-Customize-and-Update/master/1_ubuntu_customize.sh | sh
 

@@ -4,8 +4,8 @@ Shell Scripts for customizing and updating Ubuntu 20.10.
 Suitable for running after install of Ubuntu or for running at a later time at your convience.
 
 # Testing Environment ⚙️
-- Ubuntu 19.10 Desktop (The Eoan Ermine)
-- ubuntu-19.10-desktop-amd64.iso
+- Ubuntu 20.10 Desktop
+- ubuntu-20.10-desktop-amd64.iso
 - VMWare Player Easy Install
 
 # Usage 😎

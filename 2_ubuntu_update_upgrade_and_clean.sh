@@ -5,18 +5,19 @@
 # for running at a later time at your convience.
 
 # Tested In:
-# Ubuntu 19.10 Desktop (The Eoan Ermine)
-# ubuntu-19.10-desktop-amd64.iso
+# Ubuntu 20.10 Desktop
+# ubuntu-20.10-desktop-amd64.iso
 # VMWare Player Auto Install
 
-# Shell Script Version: 1.0
+# Shell Script Version: 1.1
 
 # Removes old packages
-sudo apt autoremove
+sudo apt autoremove --yes && \
+sudo apt clean --yes
 
 # Updates and upgrades packages then restarts
-sudo apt update && \
-sudo apt upgrade -y
+sudo apt update --yes && \
+sudo apt upgrade --yes
 
 # Finished message, prompts for restart
 echo $'\n'$"*** Updated, upgraded and cleaned Ubuntu. ***"

@@ -6,15 +6,15 @@
 # for running at a later time at your convience.
 
 # Tested In:
-# Ubuntu 19.10 Desktop (The Eoan Ermine)
-# ubuntu-19.10-desktop-amd64.iso
+# Ubuntu 20.10 Desktop
+# ubuntu-20.10-desktop-amd64.iso
 # VMWare Player Auto Install
 
-# Shell Script Version: 1.0
+# Shell Script Version: 1.1
 
 # Removes unwanted packages
 sudo apt purge gstreamer1.0-fluendo-mp3 deja-dup \
-shotwell whoopsie whoopsie-preferences -yy
+shotwell whoopsie whoopsie-preferences --yes
 
 # Removes junk including games, Thunderbird and
 # LibreOffice
@@ -23,7 +23,7 @@ thunderbird rhythmbox aisleriot cheese \
 libreoffice-base-core libreoffice-calc \
 libreoffice-draw libreoffice-math \
 libreoffice-writer libreoffice-impress \
-gnome-mahjongg gnome-mines gnome-sudoku -y
+gnome-mahjongg gnome-mines gnome-sudoku --yes
 
 # Sets the behaviour of icons to allow minimizing windows
 gsettings set org.gnome.shell.extensions.dash-to-dock \

@@ -37,4 +37,4 @@ Updates, upgrades and cleans Ubuntu. (prompts for password then for restart at t
 2. Create a file with . sh extension.
 3. Write the script in the file using an editor.
 4. Make the script executable with command chmod +x <fileName>.
-5. Run the script using ./<fileName>.
+5. Run the script using `./<fileName>`.

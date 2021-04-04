@@ -1,4 +1,6 @@
 
+🥶 The repo is archived, I don't expect to do more work on it.
+
 Shell Scripts for customizing and updating Ubuntu 20.10.
 
 Suitable for running after install of Ubuntu or for running at a later time at your convience.
